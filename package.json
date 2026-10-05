@@ -1,0 +1,28 @@
+{
+  "name": "golem",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GOLEM: a Solana token launched on Hooked, with a bounded, timelocked buyback-and-burn keeper steered by an agent.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "status": "tsx src/cli.ts status",
+    "keeper": "tsx src/cli.ts keeper",
+    "keeper:loop": "tsx src/cli.ts keeper --loop",
+    "mind": "tsx src/cli.ts mind",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}

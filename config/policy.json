@@ -1,0 +1,7 @@
+{
+  "buybackShareBps": 1000,
+  "maxSolPerRun": 0.5,
+  "minIntervalMinutes": 240,
+  "slippageBps": 150,
+  "reserveSol": 0.1
+}
