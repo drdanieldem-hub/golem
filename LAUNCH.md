@@ -4,7 +4,7 @@
 - [ ] Create a dedicated treasury wallet: `solana-keygen new -o treasury.keypair.json`.
 - [ ] Fund it with the SOL committed to buybacks, plus `reserveSol`.
 - [ ] Decide the funding policy (see README) and the starting `config/policy.json`.
-- [ ] Prepare the token's metadata: name `GOLEM`, ticker `GOLEM`, image, description, links.
+- [ ] Prepare the token's metadata: copy and links are in `launch/metadata.md`.
 - [ ] Check the name and ticker aren't already used by a live Solana token you'd be confused with.
 
 ## 2. Launch on Hooked
